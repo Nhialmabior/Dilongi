@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhial Mabior Garang</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <form action="#" method="get">
+                        <input type="text" name="search" placeholder="Search...">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></i></button>
+                    </form>
+                </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu"></i>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Nhial Mabior Garang</h1>
+            <h3>Frontend Developer | Data Analyst</h3>
+            <p>I'm a passionate Frontend Developer and Data Analyst. I'm specialized in data analytic tools such as Excel, SPSS, R and Tableau whereas i built amazing user interface and experience which has enable me to create user friendly websites</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./Garang1-Photoroom.jpg" class="side-image">
+        </div>
+    </section>
+    <!-- about -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Marqueza.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate digital individual born to a South Sudanese parent and spend most of my life as refugee in Kakuma, Kenya. I completed my primary and high school in the year 2016 and 2020 respectively. I joined Don Bosco Technical Institute coming 2021 where I completed a six-month Computer Application Certificate. This is were my interest in technology begins. In the early 2022, I was lucky enough to be employed as a primary school teacher with the prestigious Lutheran World Federation. In August same year, I joined Xavier Institute of Management(XIM) in coordination with Jesuit Worldwide Learning(JWL) in a four-years degree program of Bachelor of Arts in Sustainable Developer where i was awarded a Certificate in Liberal Studies after the completion of a one year bridging program into the BASD program. I'm currently doing this course of which i expect that by mid 2026, I will be graduated with the Bachelor Degree. In 2024 after gaining more interest in the digital world, I join Action for Refugee Life (AREL), a refugee non-profit organization that offer tech-related courses where i joied them and completed a six-month Certificate in Data Analysis with analysing tools such as Excel, R, SPSS and Tableau. I however goes on and learn PowerBi on my own of which i can used to make effective data driven solutions. I also join them again in Aug 2024 in the then Frontend Development program where we learn a lot of things. We were able to learn HTML, CSS, JavaScript, and Reactjs to make user-friendly webpages with appealing look and appearances. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Nov 4 - Dec 4 2024</span><br>Data Visualization Internship with Excelerate</li>
+                            <li><span>Dec 2023</span><br>Data Enumerator with LWF</li>
+                            <li><span>Jan 2024 - June 2024</span><br>Data Analystic training with AREL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Aug 2024 - current</span><br>Frontend Development Program with AREL</li>
+                            <li><span>Jan 2024 - June 2024</span><br>Data Analystic taringing with AREL</li>
+                            <li><span>Aug 2022 - current</span><br>BA in Sustainable Development with XIM University and Jesuit Worldwide Learning</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- services -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, placeat.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, placeat.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, placeat.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- My work -->
+       <div id="portfolio">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./media-998990_1280.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./vinyl-4722544_1280.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./shopping-2415820_1280.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+       </div>
+
+
+       <!-- Contact -->
+       <div id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>dilongimabior@gmail.com</p>
+                        <p><i class="fa fa-phone-square-alt"></i>+254 758 255975</p>
+                        <div class="social-icons">
+                            <a href="https://web.facebook.com/@nhialdilongi.demabior"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://fa-linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="./Nhial Mabior Garang.docx" class="btn btn2" download>Download my CV here</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="copyright">
+                <p>&copy; Nhial Mabior Garang. Made with <i class="fas fa-heart"></i> by Dilongi Creatives.</p>
+            </div>
+        </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
